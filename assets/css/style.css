@@ -1,0 +1,80 @@
+@import url('https//:fonts.googleapis.com/css?family=Raleway');
+@import url('https//:fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+html, body{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background: url(https://source.unsplash.com/h1kyZFGwTh4) no-repeat 50% 50%;
+	top : 0;
+	background-size: cover;
+}
+
+.intro .br_box{
+	width: 100%;
+	max-width: none;
+}
+
+.logo{
+	width: 100%;
+	height: 100%;
+
+}
+.logo img{
+	width: 300px;
+	padding: 40px;
+	margin: 20px;
+	background-color: rgba(168,169,170, 0.3) ;
+	border: solid rgba(168,169,170, 0.9) 1px;
+}
+.tagline {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #FFFCFD;
+	font-size: 8rem;
+	font-weight: 800;
+}
+.tagline .intro_msg{
+	margin: 20px auto;
+	padding: 40px;
+	background-color: rgba(128,129,130, 0.3) ; 
+	font-family: 'Courgette', cursive;
+	font-size: 3rem;
+	font-weight:400;
+	justify-content: center;
+	text-shadow: 0 0 .3em rgba(128,128,128, 0.9);
+	
+}
+.tagline span {
+	font-family: 'Oswald', sans-serif;
+	font-size: 5rem;
+	color: #FFFCFD;
+	text-shadow: 0 0 .2rem grey;
+	font-weight: bold;
+}
+#btn img{
+ 	width: 20px;
+ 	height: 30px;
+	
+}
+#btn img:hover{
+	border: solid rgba(211,211,211, 0.9) 3px;
+	border-radius: 9px;
+	padding: 3px;
+
+}
